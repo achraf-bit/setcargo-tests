@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class='panel-control-collapse'])[1]</value>
+         <value>(//*[@class='panel-controls'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>fbd4784a-0e83-4830-9654-26360ac09598</webElementGuid>
+      <webElementGuid>4f53661e-f5fd-4547-904d-1f9fa4d91936</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>panel-control-collapse</value>
-      <webElementGuid>9d33900f-13c8-44b4-bb6e-65d2215479a5</webElementGuid>
+      <webElementGuid>4cd3c1f6-0fcd-4841-8958-d412247f6d7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;corp&quot;)/app-corp[1]/app-dashboard[1]/div[@class=&quot;content_wrapper&quot;]/app-pricing-booking-search[1]/app-collapsible-panel[@class=&quot;advanced-search&quot;]/div[@class=&quot;collapsible-panel panel panel-visible  panel-collapsed&quot;]/div[@class=&quot;panel-heading heading-search heading-table&quot;]/span[@class=&quot;panel-controls&quot;]/a[@class=&quot;panel-control-collapse&quot;]</value>
-      <webElementGuid>5b960a57-a3ff-4c3b-a589-eb80f0e7af25</webElementGuid>
+      <webElementGuid>e2b7f828-eb78-4a43-9d21-327dde78a859</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='corp']/app-corp/app-dashboard/div/app-pricing-booking-search/app-collapsible-panel/div/div/span/a[2]</value>
-      <webElementGuid>45867006-4734-4b80-8f2c-41a8cb29910c</webElementGuid>
+      <webElementGuid>6a7a3e86-15bb-4d86-bdf2-989e4f7bc5e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>e95057a1-2115-4391-ab4a-9c7f2404dc76</webElementGuid>
+      <webElementGuid>342f95c7-cc16-4d21-9d78-27763aa1346f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
