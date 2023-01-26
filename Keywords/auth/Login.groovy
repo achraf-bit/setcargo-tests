@@ -30,8 +30,9 @@ public class Login {
 		WebUI.openBrowser(GlobalVariable.app_url)
 		WebUI.setText(findTestObject('Object Repository/Login Page/input_E-mail'), email)
 		WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/input_Password'), password)
-		WebUI.click(findTestObject('Object Repository/Login Page/button_SignIn'))
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Navbar/logo Setgargo'), 100)
+		WebUI.click(findTestObject('Object Repository/Login Page/buttfindTestObject('Object Repository/Home Page/Navbar/input Select User')findTestObject('Object Repository/Home Page/Navbar/input Select User')findTestObject('Object Repository/Home Page/Navbar/input Select User')on_SignIn'))
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Navbar/input Select User'), 0)
+		
 	}
 
 	@Keyword
