@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button Search in advanced Search</name>
+   <tag></tag>
+   <elementGuidId>226ebfcb-2a7c-44ce-80e3-94844923d9bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='corp']/app-corp//app-advanced-form-search//button[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7a42e512-7409-4446-b1f7-8e1b32adc6d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-sm</value>
+      <webElementGuid>1e7e0189-f596-47d0-b1f0-021ca4414e00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        Recherche
+      </value>
+      <webElementGuid>ddcee9d6-2a55-4b76-930b-6959da2e2c64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;corp&quot;)/app-corp[1]/app-dashboard[1]/div[@class=&quot;content_wrapper&quot;]/app-pricing-booking-search[1]/app-collapsible-panel[@class=&quot;advanced-search&quot;]/div[@class=&quot;collapsible-panel panel panel-visible&quot;]/div[@class=&quot;panel-body body-search&quot;]/app-advanced-form-search[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;pull-right&quot;]/button[@class=&quot;btn btn-primary btn-sm&quot;]</value>
+      <webElementGuid>b199505d-1248-48e4-ba1d-dedef9bab887</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='corp']/app-corp/app-dashboard/div/app-pricing-booking-search/app-collapsible-panel/div/div[2]/app-advanced-form-search/div/div[2]/div/button[3]</value>
+      <webElementGuid>6d9a56ec-a53d-48a0-b613-dda3aa698bf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rechercher :'])[1]/preceding::button[1]</value>
+      <webElementGuid>82322019-f660-4bae-9175-7f8207f7f2df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Recherche']/parent::*</value>
+      <webElementGuid>1da5bd72-7042-4a71-a71c-7eddf532ef67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>03b73812-6e0a-43cd-934f-033a264608be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '
+        Recherche
+      ' or . = '
+        Recherche
+      ')]</value>
+      <webElementGuid>07187ac8-4103-4e1c-bae7-c1275b74ac5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

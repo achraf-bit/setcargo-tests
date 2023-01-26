@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logo Setgargo</name>
+   <tag></tag>
+   <elementGuidId>be7113a2-e705-463f-9c93-182ac39769ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.mytower-logo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-header//img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>cb57b1d1-d974-4efe-993a-87db09258cd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mytower-logo</value>
+      <webElementGuid>f4ea0e3b-aa43-4a14-b55d-ad13b845653a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>0dea124f-565b-49ec-bf7b-f316c3c6e6c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../assets/images/logo-acceuil.png</value>
+      <webElementGuid>b9d99178-9aee-4e51-898f-65c0d6f6cb8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;background&quot;]/app-root[1]/app-header[1]/nav[@class=&quot;animated fadeInDown navbar-header navbar-fixed-top navbar-shadow user-controlTower&quot;]/ul[@class=&quot;navb navbar-left&quot;]/li[@class=&quot;dropdown menu-merge hidden-xs&quot;]/a[@class=&quot;padding-0-important pull-left&quot;]/img[@class=&quot;mytower-logo&quot;]</value>
+      <webElementGuid>3b00cc0c-0dd2-4bad-98ec-f1dd42720103</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>5a4f086a-3f26-4591-90bd-af75a8886b1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../../assets/images/logo-acceuil.png']</value>
+      <webElementGuid>e90ec81a-f298-49d1-a332-517c68fc11fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

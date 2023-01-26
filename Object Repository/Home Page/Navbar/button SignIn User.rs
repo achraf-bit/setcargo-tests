@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button SignIn User</name>
+   <tag></tag>
+   <elementGuidId>d7598ae6-57de-443f-b492-4ec648372ef8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-sign-in</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='connectas']//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>2a0d8f68-361d-4d43-99fd-ddd93a453055</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-sign-in</value>
+      <webElementGuid>9ae73915-383d-4fa9-9385-157a3ad01b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;connectas&quot;)/div[1]/div[1]/button[@class=&quot;btn btn-sm conas-login&quot;]/i[@class=&quot;fa fa-sign-in&quot;]</value>
+      <webElementGuid>d09ed00b-fc0d-4551-921c-9b9d404fd398</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='connectas']/div/div/button/i</value>
+      <webElementGuid>7b9b1424-e76d-4fec-a5c3-d248c07a7ded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>21a92046-55af-4dc2-b360-db40a1f12b5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

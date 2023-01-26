@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://setcargo.mytower.fr/'</initValue>
+      <name>app_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mytower@setcargo.com'</initValue>
+      <name>superadmin_1_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sG0LQKhAaTCRPfyKgH1CnMUGJxIBaeDB'</initValue>
+      <name>superadmin_1_password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

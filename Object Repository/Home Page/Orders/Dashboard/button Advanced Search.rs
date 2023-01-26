@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button Advanced Search</name>
+   <tag></tag>
+   <elementGuidId>9de23b42-c008-4990-bd54-ab2bcab96f40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.panel-control-collapse</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='corp']//app-dashboard/div/app-pricing-booking-search//span/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7d9c9141-c057-4123-84d7-3c63d59590a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panel-control-collapse</value>
+      <webElementGuid>32a78bee-5387-40b5-8947-fa0131e9eebc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;corp&quot;)/app-corp[1]/app-dashboard[1]/div[@class=&quot;content_wrapper&quot;]/app-pricing-booking-search[1]/app-collapsible-panel[@class=&quot;advanced-search&quot;]/div[@class=&quot;collapsible-panel panel panel-visible  panel-collapsed&quot;]/div[@class=&quot;panel-heading heading-search heading-table&quot;]/span[@class=&quot;panel-controls&quot;]/a[@class=&quot;panel-control-collapse&quot;]</value>
+      <webElementGuid>13b3dfbf-492d-4f1f-8aba-daf3df3dfc3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='corp']/app-corp/app-dashboard/div/app-pricing-booking-search/app-collapsible-panel/div/div/span/a[2]</value>
+      <webElementGuid>d1c347b9-7ae6-48a2-add0-f8ca047bd4e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>a5b36f87-63b8-4133-9c71-c5081bcaa574</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

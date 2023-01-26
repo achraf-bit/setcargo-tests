@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button Orders</name>
+   <tag></tag>
+   <elementGuidId>915e9afb-373f-4c11-abaa-e7069d4861fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.col-md-12.img-responsive.module-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-header//ul[2]/li[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9d72c868-f77b-432f-b231-869460d47d69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-12 img-responsive module-image</value>
+      <webElementGuid>3b1dbb63-9d39-4ce1-bcfe-75eaf12454fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../assets/images/pictos/ico-order.svg</value>
+      <webElementGuid>74f20c1f-8a90-4cda-ab99-5cbbb70f4e49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;background&quot;]/app-root[1]/app-header[1]/nav[@class=&quot;animated fadeInDown navbar-header navbar-fixed-top navbar-shadow user-controlTower&quot;]/ul[@class=&quot;navb padding-right-0 navbar-center&quot;]/li[@class=&quot;module-menu-item col-md-2&quot;]/a[1]/img[@class=&quot;col-md-12 img-responsive module-image&quot;]</value>
+      <webElementGuid>b330f532-ba20-447a-8739-f85c372d44c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-header//ul[2]/li[1]</value>
+      <webElementGuid>ec6f4b86-1ff7-4100-a140-a1263d4bf70d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../../assets/images/pictos/ico-order.svg']</value>
+      <webElementGuid>c63ee880-a741-4085-85e5-5b0191c9b644</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
