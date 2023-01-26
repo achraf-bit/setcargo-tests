@@ -1,23 +1,26 @@
 {
-  "keywordFileContentHash": "C0B3DE6201E1D6AF0573C21EE4762A44",
+  "keywordFileContentHash": "9CB260048EF5FB2EA3C0528D819254AB",
   "keywordClasses": [
     {
       "name": "orders.Orders",
       "keywordMethods": [
         {
           "name": "accessToOrders",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "searchInDashboard",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "advancedSearch",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
