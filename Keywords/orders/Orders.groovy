@@ -42,6 +42,7 @@ public class Orders {
 
 	@Keyword
 	def advancedSearch(){
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'),0)
 		WebUI.click(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'),0)
 		WebUI.setText(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'), '000027967')
