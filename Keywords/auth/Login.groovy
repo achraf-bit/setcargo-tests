@@ -33,11 +33,11 @@ public class Login {
 		WebUI.click(findTestObject('Object Repository/Login Page/button_SignIn'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Navbar/input Select User'), 0)
 	}
-	
+
 	@Keyword
 	def loginFromHomePage() {
 		WebUI.setText(findTestObject('Object Repository/Home Page/Navbar/input Select User'), 'flamant')
-		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Home Page/Navbar/loader'), 0)	
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Home Page/Navbar/loader'), 0)
 		WebUI.sendKeys(findTestObject('Object Repository/Home Page/Navbar/input Select User'), Keys.chord(Keys.ENTER))
 		WebUI.click(findTestObject('Object Repository/Home Page/Navbar/button SignIn User'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Home Page/Navbar/button Orders'),0)
