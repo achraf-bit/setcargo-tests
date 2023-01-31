@@ -44,7 +44,23 @@ public class Orders {
 	def advancedSearch(){
 		WebUI.maximizeWindow()
 		WebUI.delay(5)
-		WebUI.click(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'))
+		def retry = 3
+		def success = false
+		
+		while (retry > 0 && !success) {
+			try {
+		        WebUI.click(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'))
+				success = true
+				println("button Advanced Search was clicked")
+			} catch (Exception e) {
+				retry--
+				if (retry == 0) {
+					println("Failed to click the button after multiple attempts")
+				} else {
+					println("Retrying click action...")
+				}
+			}
+		}
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'),0)
 		WebUI.setText(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'), '000027967')
 		WebUI.click(findTestObject('Object Repository/Home Page/Orders/Form/button Search in advanced Search'))
