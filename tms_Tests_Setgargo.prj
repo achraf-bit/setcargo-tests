@@ -6,7 +6,7 @@
    <UUID>d0d6217f-2765-40f4-83cb-5c55b10a4849</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Admin\Desktop\tms_Tests_Setgargo\tms_Tests_Setgargo.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\Admin\Desktop\katalon\setcargo-tests\tms_Tests_Setgargo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

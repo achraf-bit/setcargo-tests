@@ -31,15 +31,15 @@ public class Login {
 		WebUI.setText(findTestObject('Object Repository/Login Page/input_E-mail'), email)
 		WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/input_Password'), password)
 		WebUI.click(findTestObject('Object Repository/Login Page/button_SignIn'))
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Navbar/input Select User'), 0)
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Navbar/input Select User'), 300)
 	}
 
 	@Keyword
 	def loginFromHomePage() {
 		WebUI.setText(findTestObject('Object Repository/Home Page/Navbar/input Select User'), 'flamant')
-		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Home Page/Navbar/loader'), 0)
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Home Page/Navbar/loader'), 300)
 		WebUI.sendKeys(findTestObject('Object Repository/Home Page/Navbar/input Select User'), Keys.chord(Keys.ENTER))
 		WebUI.click(findTestObject('Object Repository/Home Page/Navbar/button SignIn User'))
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Home Page/Navbar/button Orders'),0)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Home Page/Navbar/button Orders'), 300)
 	}
 }

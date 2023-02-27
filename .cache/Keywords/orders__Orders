@@ -6,18 +6,21 @@
       "keywordMethods": [
         {
           "name": "accessToOrders",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "searchInDashboard",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "advancedSearch",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

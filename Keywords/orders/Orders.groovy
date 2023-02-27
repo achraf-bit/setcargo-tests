@@ -22,12 +22,13 @@ import internal.GlobalVariable
 
 public class Orders {
 
+	def globalTimeout = 60 * 5;
 	def value
 
 	@Keyword
 	def accessToOrders() {
 		WebUI.click(findTestObject('Object Repository/Home Page/Navbar/button Orders'))
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Dashboard/first Cell in Dashboard Orders'), 0)
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Dashboard/first Cell in Dashboard Orders'), globalTimeout)
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/Orders/Dashboard/first Cell in Dashboard Orders'))
 	}
 
@@ -42,26 +43,10 @@ public class Orders {
 
 	@Keyword
 	def advancedSearch(){
-		WebUI.maximizeWindow()
-		WebUI.delay(5)
-		def retry = 3
-		def success = false
-		
-		while (retry > 0 && !success) {
-			try {
-		        WebUI.click(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'))
-				success = true
-				println("button Advanced Search was clicked")
-			} catch (Exception e) {
-				retry--
-				if (retry == 0) {
-					println("Failed to click the button after multiple attempts")
-				} else {
-					println("Retrying click action...")
-				}
-			}
-		}
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'),0)
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'), globalTimeout)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'), globalTimeout)
+		WebUI.click(findTestObject('Object Repository/Home Page/Orders/Dashboard/button Advanced Search'))
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'), globalTimeout)
 		WebUI.setText(findTestObject('Object Repository/Home Page/Orders/Form/input_N Order'), '000027967')
 		WebUI.click(findTestObject('Object Repository/Home Page/Orders/Form/button Search in advanced Search'))
 		WebUI.delay(5)
